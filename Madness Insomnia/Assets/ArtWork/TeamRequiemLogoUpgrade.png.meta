@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      TeamRequiemLogoUpgrade_0: -2652398591105672193
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

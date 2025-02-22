@@ -197,7 +197,10 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      MadnessInsomiaPlaceholder_0: 1825825613378031767
+      MadnessInsomiaPlaceholder_1: 5322181191794609466
+      MadnessInsomiaPlaceholder_2: 374837648165281383
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
