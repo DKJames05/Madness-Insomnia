@@ -172,7 +172,9 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      TitleScreenArtwork(MadnessInsomnia)_0: -7649629712447410995
+      TitleScreenArtwork(MadnessInsomnia)_1: -8989448094809403628
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
