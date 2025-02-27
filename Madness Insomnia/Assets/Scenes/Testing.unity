@@ -769,7 +769,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c3340995cb566334a8b733793b608704, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  bosshealth: 4
+  bosshealth: 0
   numofbosshearts: 4
   hearts:
   - {fileID: 1064538967}
