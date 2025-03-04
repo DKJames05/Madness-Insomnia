@@ -5,7 +5,7 @@ using System.Collections;
 
 
 
-public class PauseMenu
+public class PauseMenu: MonoBehaviour
 {
     public static bool GameIsPaused = false;
 
@@ -45,7 +45,7 @@ public class PauseMenu
     public void LoadMenu()
     {
         Debug.Log("Loading menu...");
-        SceneManager.LoadScene(0);
+        SceneManager.LoadScene("Title screen");
     }
     public void QuitGame()
     {
