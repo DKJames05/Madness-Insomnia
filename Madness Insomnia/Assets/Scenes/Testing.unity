@@ -435,6 +435,22 @@ PrefabInstance:
       propertyPath: m_Name
       value: Phil's Health
       objectReference: {fileID: 0}
+    - target: {fileID: 6244523177282049850, guid: 66a851501ccf0d942ac027b531be2868, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 382.6076
+      objectReference: {fileID: 0}
+    - target: {fileID: 6244523177282049850, guid: 66a851501ccf0d942ac027b531be2868, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 69.7975
+      objectReference: {fileID: 0}
+    - target: {fileID: 6244523177282049850, guid: 66a851501ccf0d942ac027b531be2868, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 310
+      objectReference: {fileID: 0}
+    - target: {fileID: 6244523177282049850, guid: 66a851501ccf0d942ac027b531be2868, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -219
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -545,6 +561,22 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 115420696332665346, guid: 4937c38b9c9f33e4789e4b8b9b888c50, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -133.99994
+      objectReference: {fileID: 0}
+    - target: {fileID: 115420696332665346, guid: 4937c38b9c9f33e4789e4b8b9b888c50, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -17.999985
+      objectReference: {fileID: 0}
+    - target: {fileID: 147706047877601600, guid: 4937c38b9c9f33e4789e4b8b9b888c50, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -226.99995
+      objectReference: {fileID: 0}
+    - target: {fileID: 147706047877601600, guid: 4937c38b9c9f33e4789e4b8b9b888c50, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -17.999985
+      objectReference: {fileID: 0}
     - target: {fileID: 238632928707769922, guid: 4937c38b9c9f33e4789e4b8b9b888c50, type: 3}
       propertyPath: m_Name
       value: BossHealth
@@ -628,6 +660,22 @@ PrefabInstance:
     - target: {fileID: 4486123559174431422, guid: 4937c38b9c9f33e4789e4b8b9b888c50, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6378804794002931953, guid: 4937c38b9c9f33e4789e4b8b9b888c50, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -318
+      objectReference: {fileID: 0}
+    - target: {fileID: 6378804794002931953, guid: 4937c38b9c9f33e4789e4b8b9b888c50, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -18
+      objectReference: {fileID: 0}
+    - target: {fileID: 8006728223215233366, guid: 4937c38b9c9f33e4789e4b8b9b888c50, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -47.99994
+      objectReference: {fileID: 0}
+    - target: {fileID: 8006728223215233366, guid: 4937c38b9c9f33e4789e4b8b9b888c50, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -17.999985
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
