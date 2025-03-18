@@ -1,51 +1,71 @@
 ﻿using UnityEngine;
+using System.Collections;
 
- using System.Collections;
-
-using System.Collections.Generic;
-
-
-
-public class Movement : MonoBehaviour
+public class SimplePlatformController : MonoBehaviour
 {
-    public float speed = 0.5f;
 
-    private Rigidbody2D rb;
+    [HideInInspector] public bool facingRight = true;
+    [HideInInspector] public bool jump = false;
+    public float moveForce = 365f;
+    public float maxSpeed = 5f;
+    public float jumpForce = 1000f;
+    public Transform groundCheck;
 
-    private Vector2 input;
 
-    // Start is called before the first frame update
+    private bool grounded = false;
+    private Animator anim;
+    private Rigidbody2D rb2d;
 
-    void Start()
 
+    // Use this for initialization
+    void Awake()
     {
-        rb = GetComponent<Rigidbody2D>();
+       // anim = GetComponent<Animator>();
+        rb2d = GetComponent<Rigidbody2D>();
+    }
+
+    // Update is called once per frame
+    void Update()
+    {
+        grounded = Physics2D.Linecast(transform.position, groundCheck.position, 1 << LayerMask.NameToLayer("Ground"));
+
+        if (Input.GetButtonDown("Jump") && grounded)
+        {
+            jump = true;
+        }
+    }
+
+    void FixedUpdate()
+    {
+        float h = Input.GetAxis("Horizontal");
+
+        //anim.SetFloat("Speed", Mathf.Abs(h));
+
+        if (h * rb2d.linearVelocity.x < maxSpeed)
+            rb2d.AddForce(Vector2.right * h * moveForce);
+
+        if (Mathf.Abs(rb2d.linearVelocity.x) > maxSpeed)
+            rb2d.linearVelocity = new Vector2(Mathf.Sign(rb2d.linearVelocity.x) * maxSpeed, rb2d.linearVelocity.y);
+
+        if (h > 0 && !facingRight)
+            Flip();
+        else if (h < 0 && facingRight)
+            Flip();
+
+        if (jump)
+        {
+            //anim.SetTrigger("Jump");
+            rb2d.AddForce(new Vector2(0f, jumpForce));
+            jump = false;
+        }
     }
 
 
-
-    // Update is called once per frame used for inputs and timers
-
-    void Update()
-
+    void Flip()
     {
-
-        input.x = Input.GetAxisRaw("Horizontal");
-
-        input.y = Input.GetAxisRaw("Vertical");
-
-        input.Normalize();
-
-        //Makes our diagonal movement move the same as other movements
-
-        //without normalize diagonal movement would be faster
-
-        //Called once per Physics frame used for physics (we'll use for our sovement)
-     }
-     private void FixedUpdate()
-    { 
-
-    rb.linearVelocity = input * speed;
-
+        facingRight = !facingRight;
+        Vector3 theScale = transform.localScale;
+        theScale.x *= -1;
+        transform.localScale = theScale;
     }
 }
