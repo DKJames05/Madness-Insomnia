@@ -12,10 +12,6 @@ public class PlayerController : MonoBehaviour
 
     public Quaternion shootingRotation;
 
-    public AudioClip deathSoundEffect;
-    public AudioClip meleeSoundEffect;
-    public AudioClip gunSoundEffect;
-    public AudioClip emptyGunSoundEffect;
 
     public float staminaLengthInSeconds;
 
@@ -44,11 +40,11 @@ public class PlayerController : MonoBehaviour
         {
             if (gameManager.getAmmo() > 0)
             {
-                soundClip.PlayOneShot(gunSoundEffect, 1);
+                //soundClip.PlayOneShot(gunSoundEffect, 1);
             }
             else
             {
-                soundClip.PlayOneShot(emptyGunSoundEffect, 1);
+                //soundClip.PlayOneShot(emptyGunSoundEffect, 1);
             }
             gunSound = true;
         }
@@ -58,7 +54,7 @@ public class PlayerController : MonoBehaviour
         }
         if (Input.GetAxis("Fire2") > 0 && !meleeSound)
         {
-            soundClip.PlayOneShot(meleeSoundEffect, 1);
+            //soundClip.PlayOneShot(meleeSoundEffect, 1);
             meleeSound = true;
         }
         else if (Input.GetAxis("Fire2") == 0)
@@ -76,8 +72,8 @@ public class PlayerController : MonoBehaviour
 
         shootingRotation = Quaternion.Euler(0, 0, angle - 90);
 
-        gameObject.transform.Find("Gun").gameObject.transform.rotation = Quaternion.Euler(0, 0, angle);
-
+        gameObject.transform.Find("SpawnPoint").gameObject.transform.rotation = Quaternion.Euler(0, 0, angle);
+        /*
         if (angle < 90 && angle > -90)
         {
             gameObject.transform.Find("Gun").gameObject.transform.Find("Sprite").GetComponent<SpriteRenderer>().flipY = false;
@@ -86,7 +82,7 @@ public class PlayerController : MonoBehaviour
         {
             gameObject.transform.Find("Gun").gameObject.transform.Find("Sprite").GetComponent<SpriteRenderer>().flipY = true;
         }
-
+        */
         if (Input.GetKeyDown(KeyCode.LeftShift) && stamina > 0)
         {
             running = true;
@@ -127,8 +123,8 @@ public class PlayerController : MonoBehaviour
     }
     private void FixedUpdate()
     {
-        Vector2 movement = new Vector2(Input.GetAxis("Horizontal"), Input.GetAxis("Vertical"));
-        rb2d.MovePosition(rb2d.position + (movement * moveSpeedActual * Time.deltaTime));
+       // Vector2 movement = new Vector2(Input.GetAxis("Horizontal"), Input.GetAxis("Vertical"));
+        //rb2d.MovePosition(rb2d.position + (movement * moveSpeedActual * Time.deltaTime));
     }
     void OnTriggerEnter2D(Collider2D collision)
     {
