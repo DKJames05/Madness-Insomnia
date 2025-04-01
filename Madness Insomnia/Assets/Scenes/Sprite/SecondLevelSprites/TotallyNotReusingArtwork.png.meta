@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: fb7cc9efd20e65d43a2a3abb431cd8e5
+guid: 68a326b453fd05e4baa5a78c08e24226
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 199249360466117110
-    second: Floor_0
+      213: 612679165490972790
+    second: TotallyNotReusingArtwork_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -113,13 +113,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Floor_0
+      name: TotallyNotReusingArtwork_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 3
-        height: 68
+        width: 3508
+        height: 2480
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,8 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 6f18e48dc30e3c200800000000000000
-      internalID: 199249360466117110
+      spriteID: 6784f54747ca08800800000000000000
+      internalID: 612679165490972790
       vertices: []
       indices: 
       edges: []
@@ -147,8 +147,7 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable:
-      Floor_0: 199249360466117110
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
