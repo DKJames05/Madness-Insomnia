@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: a9e1acdc2fa9471418366505aed98245
+guid: fbf59bb024aaf03449f999b737a00edd
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 8633881525917383573
-    second: Spritesheet_0
+      213: 7873444928579934181
+    second: Cactus_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -113,13 +113,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Spritesheet_0
+      name: Cactus_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 10536
-        height: 6200
+        x: 165
+        y: 75
+        width: 564
+        height: 885
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,8 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 59bfc19e085b1d770800000000000000
-      internalID: 8633881525917383573
+      spriteID: 5e79b9e7278144d60800000000000000
+      internalID: 7873444928579934181
       vertices: []
       indices: 
       edges: []
@@ -147,8 +147,7 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable:
-      Spritesheet_0: 8633881525917383573
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

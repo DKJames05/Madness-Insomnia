@@ -1237,7 +1237,7 @@ Transform:
   m_GameObject: {fileID: 563319876}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 4.1319757, y: 9.667376, z: -2.6013162}
+  m_LocalPosition: {x: 4.1319757, y: 9.667376, z: -0.22}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -1259,7 +1259,7 @@ Rigidbody2D:
   m_Mass: 1
   m_LinearDamping: 0
   m_AngularDamping: 0.05
-  m_GravityScale: 1
+  m_GravityScale: 0
   m_Material: {fileID: 0}
   m_IncludeLayers:
     serializedVersion: 2
@@ -3000,6 +3000,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Phil'sHealth
       objectReference: {fileID: 0}
+    - target: {fileID: 6244523177282049850, guid: 66a851501ccf0d942ac027b531be2868, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -254
+      objectReference: {fileID: 0}
+    - target: {fileID: 6244523177282049850, guid: 66a851501ccf0d942ac027b531be2868, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -220
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -4720,7 +4728,7 @@ GameObject:
   - component: {fileID: 1903713267}
   - component: {fileID: 1903713269}
   - component: {fileID: 1903713268}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: Ghost?
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4736,7 +4744,7 @@ Transform:
   m_GameObject: {fileID: 1903713265}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 7.08, y: -5.25, z: -3.39}
+  m_LocalPosition: {x: 7.31, y: -5.25, z: -6.07}
   m_LocalScale: {x: 2.8455, y: 2.8455, z: 2.8455}
   m_ConstrainProportionsScale: 0
   m_Children: []
