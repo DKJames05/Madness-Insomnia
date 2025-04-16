@@ -154,8 +154,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 80.03409, y: -87.458115}
-  m_SizeDelta: {x: 610.5616, y: 341.9436}
+  m_AnchoredPosition: {x: 80.03401, y: -166.80092}
+  m_SizeDelta: {x: 610.5614, y: 384.8818}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &95051039
 MonoBehaviour:
@@ -502,8 +502,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 163.1131, y: 90}
-  m_SizeDelta: {x: 469.3009, y: 572.28}
+  m_AnchoredPosition: {x: 114.5739, y: 153.91}
+  m_SizeDelta: {x: 372.2225, y: 435.71}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &260989316
 MonoBehaviour:
@@ -1301,14 +1301,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0, g: 0, b: 0, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Texture: {fileID: 0}
+  m_Texture: {fileID: 2800000, guid: b54463e0e8eb5ae49ba9c3a996288a68, type: 3}
   m_UVRect:
     serializedVersion: 2
     x: 0
@@ -2226,8 +2226,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 60.6571, y: -86.767}
-  m_SizeDelta: {x: 127.7771, y: 145.74}
+  m_AnchoredPosition: {x: 12.614, y: 29}
+  m_SizeDelta: {x: 74.7722, y: 85.913}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1614583624
 MonoBehaviour:
@@ -2638,8 +2638,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0.5}
   m_AnchorMax: {x: 0, y: 0.5}
-  m_AnchoredPosition: {x: -431, y: 90}
-  m_SizeDelta: {x: 256.2418, y: 446.8065}
+  m_AnchoredPosition: {x: -364, y: 166}
+  m_SizeDelta: {x: 246.9073, y: 394.5336}
   m_Pivot: {x: 0, y: 0.5}
 --- !u!114 &1926499541
 MonoBehaviour:
@@ -2732,14 +2732,14 @@ RectTransform:
   m_GameObject: {fileID: 2002729876}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 1.9225999}
-  m_LocalScale: {x: 1.3921359, y: 2.365473, z: 0.20645493}
+  m_LocalScale: {x: 1.3921357, y: 2.365473, z: 0.20645493}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1706618489}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -51.978683, y: 480.45474}
+  m_AnchoredPosition: {x: -51.978653, y: 480.45438}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2002729878
