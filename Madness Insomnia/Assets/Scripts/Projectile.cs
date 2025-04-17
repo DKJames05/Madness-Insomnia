@@ -21,7 +21,7 @@ public class projectile : MonoBehaviour
     {
 
         //rigidbody.transform.position = transform.right * projectilespeed;
-        rigidbody.AddForce(transform.right * projectilespeed);
+        rigidbody.AddForce(transform.up * projectilespeed)
     }
     /*
  
