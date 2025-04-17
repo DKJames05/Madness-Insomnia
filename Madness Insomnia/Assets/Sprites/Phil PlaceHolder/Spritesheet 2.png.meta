@@ -228,6 +228,19 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -1234,7 +1247,52 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Spritesheet 2_0: -4491377789584183547
+      Spritesheet 2_1: 2828545266983032891
+      Spritesheet 2_10: 7034396241883886312
+      Spritesheet 2_11: 3745737216519383223
+      Spritesheet 2_12: 8259032922889598472
+      Spritesheet 2_13: 8445681804823727721
+      Spritesheet 2_14: 648270120000315525
+      Spritesheet 2_15: 8433885468304745370
+      Spritesheet 2_16: 2127268106089901043
+      Spritesheet 2_17: 4133342169350781835
+      Spritesheet 2_18: -4912828569673567025
+      Spritesheet 2_19: -2968683078297409020
+      Spritesheet 2_2: 8619280401068529517
+      Spritesheet 2_20: 3994384249775188045
+      Spritesheet 2_21: -3083395300518263718
+      Spritesheet 2_22: -23668551825412140
+      Spritesheet 2_23: 4614201830365066020
+      Spritesheet 2_24: -3980316234113659008
+      Spritesheet 2_25: -7127111012982846520
+      Spritesheet 2_26: -1319135519996590732
+      Spritesheet 2_27: 4209304652172664863
+      Spritesheet 2_28: -90698791646738396
+      Spritesheet 2_29: 6952762406552970231
+      Spritesheet 2_3: -4078181113116351775
+      Spritesheet 2_30: 329978685928129153
+      Spritesheet 2_31: 1843232875181820783
+      Spritesheet 2_32: 4886030215290296383
+      Spritesheet 2_33: 7319642257629443130
+      Spritesheet 2_34: -6272930774166372501
+      Spritesheet 2_35: -8612829021682637243
+      Spritesheet 2_36: -1044636608540403116
+      Spritesheet 2_37: 901713610250882026
+      Spritesheet 2_38: 7597792869741534671
+      Spritesheet 2_39: 6909105169900633760
+      Spritesheet 2_4: -9198089947617594882
+      Spritesheet 2_40: -779071548875136250
+      Spritesheet 2_41: 3189839610782901743
+      Spritesheet 2_42: -7163018430511322678
+      Spritesheet 2_43: 1865324475408868834
+      Spritesheet 2_44: 8718740773633425148
+      Spritesheet 2_5: -1013092847314366633
+      Spritesheet 2_6: 2323547866817492950
+      Spritesheet 2_7: -6484790280393213011
+      Spritesheet 2_8: -8749163228879543537
+      Spritesheet 2_9: 3235603988084339983
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
