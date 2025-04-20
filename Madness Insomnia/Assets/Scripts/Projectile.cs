@@ -19,9 +19,8 @@ public class projectile : MonoBehaviour
 
     void Update()
     {
-
         //rigidbody.transform.position = transform.right * projectilespeed;
-        rigidbody.AddForce(transform.up * projectilespeed)
+        rigidbody.AddForce(transform.up * projectilespeed);
     }
     /*
  
