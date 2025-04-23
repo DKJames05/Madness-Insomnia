@@ -83,41 +83,41 @@ public class PlayerController : MonoBehaviour
             gameObject.transform.Find("Gun").gameObject.transform.Find("Sprite").GetComponent<SpriteRenderer>().flipY = true;
         }
         */
-        if (Input.GetKeyDown(KeyCode.LeftShift) && stamina > 0)
-        {
-            running = true;
-        }
-        if (Input.GetKeyUp(KeyCode.LeftShift))
-        {
-            running = false;
-        }
+        //if (Input.GetKeyDown(KeyCode.LeftShift) && stamina > 0)
+        //{
+         //   running = true;
+       //}
+        //if (Input.GetKeyUp(KeyCode.LeftShift))
+       // {
+          //  running = false;
+       // }
 
-        if (running && !tired)
-        {
-            moveSpeedActual = moveSpeed + 10;
-            stamina -= Time.deltaTime;
-            if (stamina <= 0)
-            {
-                stamina = 0;
-                moveSpeedActual = moveSpeed;
-                tired = true;
-            }
-        }
-        else
-        {
-            moveSpeedActual = moveSpeed;
-            stamina += Time.deltaTime;
-            if (stamina > 5)
-            {
-                tired = false;
-                stamina = 5;
-            }
-        }
+       // if (running && !tired)
+        //{
+           // moveSpeedActual = moveSpeed + 10;
+            //stamina -= Time.deltaTime;
+            //if (stamina <= 0)
+            //{
+              //  stamina = 0;
+              //  moveSpeedActual = moveSpeed;
+               // tired = true;
+            //}
+       // }
+        //else
+        //{
+            //moveSpeedActual = moveSpeed;
+            //stamina += Time.deltaTime;
+            //if (stamina > 5)
+            //{
+              //  tired = false;
+             //   stamina = 5;
+           // }
+       //}
 
-        if ((Input.GetAxis("Horizontal")) > 0)
-            sr.flipX = false;
-        else if ((Input.GetAxis("Horizontal") < 0))
-            sr.flipX = true;
+       // if ((Input.GetAxis("Horizontal")) > 0)
+           //sr.flipX = false;
+        //else if ((Input.GetAxis("Horizontal") < 0))
+            //sr.flipX = true;
 
         // Debug.Log(stamina);
     }
