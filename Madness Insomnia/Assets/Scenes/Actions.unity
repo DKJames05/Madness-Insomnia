@@ -880,6 +880,10 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 5
       objectReference: {fileID: 0}
+    - target: {fileID: 1701469952095575623, guid: 34ff634adeb8325419d982ec58c0ffdb, type: 3}
+      propertyPath: m_TagString
+      value: door
+      objectReference: {fileID: 0}
     - target: {fileID: 4821519699761850995, guid: 34ff634adeb8325419d982ec58c0ffdb, type: 3}
       propertyPath: Winner
       value: 
@@ -888,7 +892,8 @@ PrefabInstance:
       propertyPath: m_IsTrigger
       value: 1
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 4821519699761850995, guid: 34ff634adeb8325419d982ec58c0ffdb, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
@@ -1510,6 +1515,19 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &630811919
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 630811901}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f593cdd9fd6b92847ae383464d8baa71, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Winner: {fileID: 1865358969}
 --- !u!1 &676829345
 GameObject:
   m_ObjectHideFlags: 0
@@ -3495,6 +3513,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 6094666967541528670, guid: a6487086973f1ed4d98a79db9769bcad, type: 3}
       insertIndex: -1
       addedObject: {fileID: 630811910}
+    - targetCorrespondingSourceObject: {fileID: 6094666967541528670, guid: a6487086973f1ed4d98a79db9769bcad, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 630811919}
   m_SourcePrefab: {fileID: 100100000, guid: a6487086973f1ed4d98a79db9769bcad, type: 3}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
