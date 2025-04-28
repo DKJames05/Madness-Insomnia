@@ -5,6 +5,8 @@ using System.Collections;
 
 public class CollisionController : MonoBehaviour
 {
+    public GameObject Winner;
+    
   private void OnCollisionEnter2D(Collision2D collision)
   {
     if (collision.gameObject.name == "door")
